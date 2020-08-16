@@ -181,6 +181,7 @@ function initializeMainEl() {
 }
 
 // Clear the body and rebuild it with the start page elements
+createStartPage()
 function createStartPage() {
    initializeMainEl();
    updateTime(TIMEOUT_INITIAL_VALUE);
