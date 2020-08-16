@@ -30,8 +30,8 @@ var startBtnDiv = document.createElement('div');
 var startBtn = document.createElement('button')
 
 // Set the text contents of the Start page elements
-startH1El.textContent = 'Coding Quiz Challenge';
-startH3El.textContent = 'Try to answer the following questions within the time limit.  Incorrect answers will penalize your score time by ten seconds.';
+startH1El.textContent =  'Quiz Challenge';
+startH3El.textContent = 'Answer the questions within the time limit.  Incorrect answers will penalize your score time by ten seconds.';
 startBtn.textContent = 'Start Quiz';
 
 // Style the start page elements
@@ -130,7 +130,7 @@ winnerFormButton.addEventListener('click', saveMyScore);
 
 // ======== Set up High Scores Page elements ========
 
-const HIGH_SCORES_MAX_CT = 5;
+const HIGH_SCORES_MAX_CT = 10;
 const HIGH_SCORES_LOCAL_STORAGE_NAME = "quizHighScores";
 
 var scoresHeadingEl = document.createElement('h1');
@@ -164,10 +164,10 @@ scoresButtonClear.addEventListener('click', function() { clearHighScores(); crea
 // ======== Quiz Questions and Answers ========
 
 var qAndA = [
-   {q:"Which variable(s) are considered global?", a0:"input and sum", a1:"sum", a2:"Input", a3:"sum and num", r:2},
-    {q:"What would be console logged if the input variable was set to zero?", a0:"one", a1:"two", a2:"one and two", a3:"two and three", r:3},
-    {q:"Which statement correctly stores data into the Web Storage API?", a0:"computer.startUp();", a1:"computer.startUp;", a2:"computer[startUp];", a3:"startUP", r:0},
-    {q:"The best party city?", a0:"Poughkeepsie", a1:"Tulsa", a2:"Bangor", a3:"Vegas", r:3},
+   { q: "Which variable(s) are considered global?", a0: "input and sum", a1: "sum", a2: "Input", a3: "sum and num", r: 2 },
+   { q: "What would be console logged if the input variable was set to zero?", a0: "one", a1: "two", a2: "one and two", a3: "two and three", r: 3 },
+   { q: "Which statement correctly stores data into the Web Storage API?", a0: "computer.startUp();", a1: "computer.startUp;", a2: "computer[startUp];", a3: "startUP", r: 0 },
+   { q: "WHat is the best city in Nevada?", a0: "Poughkeepsie", a1: "Tulsa", a2: "Bangor", a3: "Vegas", r: 3 },
 ]; 
 
 // ======== End of variable initialization ========
@@ -310,8 +310,7 @@ function displayAnswerResult(answerResult) {
 
 // Add the user's score to the high score list.  Note that if the
 // user's score wasn't in the top HIGH_SCORES_MAX_CT scores, it will
-// not be saved.  (TBD) Don't allow the user to enter their initials
-// if they're not going to make the list.
+// not be saved.  
 function saveMyScore() {
    event.preventDefault();
 
