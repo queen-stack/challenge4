@@ -166,7 +166,14 @@ scoresButtonClear.addEventListener('click', function() { clearHighScores(); crea
 var qAndA = [
     {q:"Which variable(s) are considered global?.", a0:"input and sum", a1:"sum", a2:"Input", a3:"sum and num", r:2},
     {q:"What would be console logged if the input variable was set to zero?", a0:"one", a1:"two", a2:"one and two", a3:"two and three", r:3},
-    {q:"Which statement correctly stores data into the Web Storage API?", a0:"computer.startUp();", a1:"computer.startUp;", a2:"computer[startUp];", a3:"startUP", r:0}
+    {q:"Which statement correctly stores data into the Web Storage API?", a0:"computer.startUp();", a1:"computer.startUp;", a2:"computer[startUp];", a3:"startUP", r:0},
+//   {q:"This is question four.", a0:"Nein", a1:"Ja", a2:"Nein", a3:"Nein", r:1},
+//   {q:"This is question five.", a0:"Nope", a1:"Yep", a2:"Nope", a3:"Nope", r:1},
+//   {q:"This is question six.", a0:"Duck", a1:"Duck", a2:"Duck", a3:"Goose", r:3},
+//   {q:"This is question seven.", a0:"X", a1:"X", a2:"O", a3:"X", r:2},
+//   {q:"This is question eight.", a0:"Vacation", a1:"Work", a2:"Work", a3:"Work", r:0},
+//   {q:"This is question nine.", a0:"Down", a1:"Down", a2:"Up", a3:"Down", r:2},
+//   {q:"This is question ten.", a0:"Poughkeepsie", a1:"Tulsa", a2:"Bangor", a3:"Vegas", r:3},
 ]; 
 
 // ======== End of variable initialization ========
@@ -181,7 +188,7 @@ function initializeMainEl() {
 }
 
 // Clear the body and rebuild it with the start page elements
-createStartPage()
+
 function createStartPage() {
    initializeMainEl();
    updateTime(TIMEOUT_INITIAL_VALUE);
@@ -394,4 +401,3 @@ function updateTime(timeRemaining) {
 
 // Kick off the quiz application
 createStartPage()
-
