@@ -164,9 +164,9 @@ scoresButtonClear.addEventListener('click', function() { clearHighScores(); crea
 // ======== Quiz Questions and Answers ========
 
 var qAndA = [
-    {q:"Which variable(s) are considered global?.", a0:"Wrong", a1:"Wrong", a2:"Input", a3:"Wrong", r:2},
-    {q:"What would be console logged if the input variable was set to zero?", a0:"No", a1:"No", a2:"one and two", a3:"Yes", r:3},
-    {q:"Which statement correctly stores data into the Web Storage API?", a0:"computer.startUp();", a1:"Nyet", a2:"Nyet", a3:"Nyet", r:0}
+    {q:"Which variable(s) are considered global?.", a0:"input and sum", a1:"sum", a2:"Input", a3:"sum and num", r:2},
+    {q:"What would be console logged if the input variable was set to zero?", a0:"one", a1:"two", a2:"one and two", a3:"two and three", r:3},
+    {q:"Which statement correctly stores data into the Web Storage API?", a0:"computer.startUp();", a1:"computer.startUp;", a2:"computer[startUp];", a3:"startUP", r:0}
 ]; 
 
 // ======== End of variable initialization ========
