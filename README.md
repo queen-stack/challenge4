@@ -29,11 +29,9 @@ WHEN the game is over
 THEN I can save my initials if reaching the high score
 ```
 
-The following is the initail application page
+The following is the initial application page
 
-[
-![app](https://user-images.githubusercontent.com/67836023/90344346-d3a02900-dfcd-11ea-9552-7342d082ee1d.png)
-](url)
+<img width="743" alt="Screen Shot 2020-08-16 at 1 39 05 PM" src="https://user-images.githubusercontent.com/67836023/90344513-4fe73c00-dfcf-11ea-9017-036b02a426dd.png">
 
 
 
