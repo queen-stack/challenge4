@@ -31,7 +31,7 @@ THEN I can save my initials if reaching the high score
 
 The following is the initial application page
 
-<img width="743" alt="Screen Shot 2020-08-16 at 1 39 05 PM" src="https://user-images.githubusercontent.com/67836023/90344513-4fe73c00-dfcf-11ea-9017-036b02a426dd.png">
+<img width="922" alt="Screen Shot 2020-08-16 at 4 56 08 PM" src="https://user-images.githubusercontent.com/67836023/90346903-a3fb1c00-dfe1-11ea-9300-66f5c9ceabf2.png">
 
 
 
